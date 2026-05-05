@@ -12,4 +12,16 @@ public:
     void setID();
     void printAll();
 
+    //pembuatan static function
+    static void setNIm(int pnim){
+        nim = pnim;
+    };
+
+    static int getNim(){
+        return nim;
+    }
+
+    mahasiswa(string pnama) :nama(pnama){
+        setID();
+    };
 };
