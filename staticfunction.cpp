@@ -38,3 +38,14 @@ void mahasiswa::printAll(){
     cout << "Nama = " << nama << endl;
     cout << endl;
 }
+
+int main(){
+    //pembuatan object and pemberian nilai
+    mahasiswa mhs1("Dadi Kecap");
+    mahasiswa mhs2("Pempek Palembang");
+
+    //memberi nilai pada setNim() untuk merubah nilai NIM
+    mahasiswa::setNIm(9);
+    mahasiswa mhs3("Andi Icikiwir");
+    mahasiswa mhs4("Joko MakLor");
+}
