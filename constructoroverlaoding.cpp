@@ -13,3 +13,24 @@ public:
     mahasiswa(int nim, string nama);
     void cetak();
 };
+
+mahasiswa::mahasiswa(){}
+
+mahasiswa::mahasiswa(int iNim){
+    nim = iNim; //definisi hanya NIM
+}
+
+mahasiswa::mahasiswa(string iNama){
+    nama = iNama; //definisi hanya NAMA
+}
+
+mahasiswa::mahasiswa(int iNim, string iNama){
+    nim = iNim;
+    nama = iNama;
+}
+
+void mahasiswa::cetak(){
+
+    cout << "Nim = " << nim << endl;
+    cout << "Nama = " << nama << endl;
+}
