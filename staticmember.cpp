@@ -16,4 +16,18 @@ public:
     mahasiswa(string pnama) :nama(pnama){
         setID();
     }
-}
+};
+
+//memberi value ke variabel nim dari class mahasiswa
+int mahasiswa::nim = 10;
+
+//mengimplementasikan prosedur-prosedur di luar class
+void mahasiswa::setID(){
+    id = ++nim;
+};
+
+void mahasiswa::printAll(){
+    cout << "ID : " << id << endl;
+    cout << "Nama : " << nama << endl;
+    cout << endl;
+};
