@@ -38,4 +38,11 @@ int main(){
     mahasiswa mhs2("Fawwaz Gocap");
     mahasiswa mhs3("Andi Ceban");
     mahasiswa mhs4("Satya Indomie");
+
+    //memanggil prosedur printAll()
+    mhs1.printAll();
+    mhs2.printAll();
+    mhs3.printAll();
+    mhs4.printAll();
+    return 0;
 }
